@@ -1,0 +1,8 @@
+---
+applications:
+- name: mp
+  memory: 256M
+  instances: 1
+  host: mp-service
+  domain: mp.xidongc.dev
+  path: build/libs/gs-rest-service-0.1.0.jar
